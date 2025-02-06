@@ -6,7 +6,6 @@
 
 Para comenzar, se debe crear una cuenta en GitHub desde la página oficial: [GitHub](https://github.com/).
 
-![GitHub Sign-up](https://chatgpt.com/g/g-V2KIUZSj0-ai-pdf-drive-chat-create-organize/c/A_step-by-step_visual_guide_for_setting_up_Git_and.png)
 
 ### 2. Instalación de Git Bash
 
@@ -16,7 +15,6 @@ Descargar e instalar Git Bash desde el siguiente enlace: [Descargar Git](https:/
 
 Ejecutar los siguientes comandos en Git Bash para configurar Git:
 
-![Configuración de Git](https://chatgpt.com/g/g-V2KIUZSj0-ai-pdf-drive-chat-create-organize/c/A_step-by-step_visual_guide_for_setting_up_Git_and.png)
 
 ```sh
 git config --global user.name "Tu Nombre de Usuario"
@@ -37,7 +35,6 @@ git config --get user.email
 
 Generar una clave SSH con el siguiente comando (reemplazar con el email de GitHub):
 
-![Generación de SSH Key](https://chatgpt.com/g/g-V2KIUZSj0-ai-pdf-drive-chat-create-organize/c/A_step-by-step_visual_guide_for_setting_up_Git_and.png)
 
 ```sh
 ssh-keygen -t ed25519 -C "tuemail@email.com"
@@ -55,7 +52,6 @@ Añadir la clave en GitHub desde: [Configuración de SSH en GitHub](https://gith
 
 Ejecutar el siguiente comando para verificar la conexión:
 
-![Prueba de Conexión SSH](https://chatgpt.com/g/g-V2KIUZSj0-ai-pdf-drive-chat-create-organize/c/A_step-by-step_visual_guide_for_setting_up_Git_and.png)
 
 ```sh
 ssh -T git@github.com
@@ -69,7 +65,6 @@ Si se muestra el mensaje de autenticación correcta, la conexión está lista.
 
 Copiar el enlace SSH del repositorio desde GitHub y ejecutar:
 
-![Clonación de Repositorio](https://chatgpt.com/g/g-V2KIUZSj0-ai-pdf-drive-chat-create-organize/c/A_step-by-step_visual_guide_for_setting_up_Git_and.png)
 
 ```sh
 git clone [enlace SSH]
